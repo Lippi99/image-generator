@@ -1,0 +1,21 @@
+.navLink {
+  margin-left: 3rem;
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    > li {
+      + li {
+        margin-left: 1.6rem;
+      }
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        
+      }
+    }
+  }
+}
